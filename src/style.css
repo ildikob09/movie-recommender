@@ -1,12 +1,13 @@
 body {
-  background-color: black;
   color: grey;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(movietheater.jpg);
+  background-size: cover;
 }
 
 .main {
   max-width: 600px;
-  background-color: white;
+  background-color: #d3d6db;
   opacity: 0.7;
   text-align: center;
   padding: 40px 20px;
@@ -15,6 +16,7 @@ body {
 }
 
 h1 {
+  color: grey;
   text-align: center;
   font-size: 48px;
 }
@@ -32,13 +34,13 @@ form {
 .form-input {
   width: 70%;
   padding: 20px;
-  border: 1px solid grey;
+  border: 1px solid #303841;
   border-radius: 40px;
 }
 
 .form-button {
   width: 20%;
-  background-color: red;
+  background-color: #c40a23;
   color: white;
   border-radius: 40px;
   border: none;
@@ -53,11 +55,12 @@ form {
 
 .recommended {
   max-width: 600px;
-  background-color: white;
+  background-color: #d3d6db;
   opacity: 0.7;
   text-align: center;
   padding: 40px 20px;
   border-radius: 15px;
+  font-size: 14px;
 }
 
 footer {
@@ -67,6 +70,6 @@ footer {
 }
 
 a {
-  color: rgb(201, 63, 63);
+  color: #c40a23;
   text-decoration: none;
 }
