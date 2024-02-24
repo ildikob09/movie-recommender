@@ -3,34 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Movie Recommender</title>
   </head>
   <body>
-    <header>
-      <h1>Movie Recommender</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Type in the topic of the movie"
-          autofocus
-          required
-        />
-        <input type="submit" />
-      </form>
-      <div class="hint">
-        i.e.: best movies from the 90's, romantic or any movie you'd like to
-        watch
+    <div class="content">
+      <header>
+        <h1>Movie Recommender</h1>
+      </header>
+      <div class="main">
+        <form>
+          <input
+            type="text"
+            placeholder="Type in the topic of the movie"
+            autofocus
+            required
+            id="form-input"
+            class="form-input"
+          />
+          <input type="submit" class="form-button" id="form-button" />
+        </form>
+        <div class="hint">
+          i.e.: best movies from the 90's, romantic or any movie you'd like to
+          watch
+        </div>
       </div>
       <div class="recommended">
         here will be the movies recommended with a short description
       </div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/ildikob09" target="_blank"> Ildiko Balogh</a>,
-      open-sourced on GitHub and hosted on Netlify
-    </footer>
+
+      <footer>
+        This project was coded by
+        <a href="https://github.com/ildikob09" target="_blank"> Ildiko Balogh</a
+        >, open-sourced on GitHub and hosted on Netlify
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
